@@ -1,0 +1,151 @@
+@import './theme.less';
+
+body {
+  background: @black-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: @gray-color !important;
+}
+h4 {
+  font-size: 15px !important;
+  font-weight: 200 !important;
+}
+p {
+  color: @gray-color !important;
+  margin-bottom: 1.5em !important;
+}
+ul {
+  color: @gray-color !important;
+}
+
+.big-container {
+  width: 1000px;
+  margin: auto;
+}
+.container {
+  width: 648px;
+  margin: auto;
+}
+.priv-btn {
+  background: linear-gradient(209deg, @red-color 0%, @purple-color 100%) !important;
+  color: #fff !important;
+  font-weight: 100 !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  transition: all 0.3s !important;
+  z-index: 999 !important;
+  &:hover {
+    background: linear-gradient(209deg, @red-color 0%, @purple-color 100%);
+    color: #fff;
+    font-weight: 100;
+    transform: scale(0.97);
+    transition: all 0.3s;
+  }
+  &:active,
+  &:focus {
+    background: linear-gradient(209deg, @red-color 0%, @purple-color 100%);
+    color: #fff;
+    font-weight: 100;
+    transform: scale(0.95);
+  }
+}
+.ant-input {
+  background: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+  border: none !important;
+  border-radius: 32px !important;
+}
+.ant-form-item-has-error {
+  .ant-form-item-explain {
+    color: @red-color !important;
+  }
+}
+
+.ant-modal {
+  input {
+    border: 1px solid #d9d9d9;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  textarea {
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .spaced {
+    margin: 0 1em;
+  }
+  .big-container {
+    width: 100%;
+    margin: auto;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+.whiteText {
+  color: #fff;
+}
+.voucher {
+  text-align: left;
+  .mount {
+    margin: 2em;
+    text-align: center;
+  }
+}
+.vouch {
+  img {
+    margin: 2em;
+    width: 80%;
+  }
+  svg {
+    margin: 2em;
+  }
+}
+
+// Optional clases
+.link-btn {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Globals Scrolls
+.scroll {
+  --thumb-color: rgba(255, 255, 255, 0.4);
+  --thumb-color-hover: #9f9fac;
+  --track-color: transparent;
+  --scroll-size: 5px;
+  --scroll-radius: 20px;
+  --display: block;
+}
+
+.scroll::-webkit-scrollbar {
+  background: transparent !important;
+  width: var(--scroll-size) !important;
+  height: var(--scroll-size) !important;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: var(--thumb-color);
+  border-radius: var(--scroll-radius);
+}
+
+.scroll::-webkit-scrollbar-thumb:active,
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--thumb-color-hover);
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: var(--track-color);
+  border-radius: var(--scroll-radius);
+}

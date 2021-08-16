@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/App.less';
-import { Home } from './view/home';
+import App from './router';
+import { BrowserRouter } from 'react-router-dom';
+import { MeContextProvider } from './context/contextMe';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <BrowserRouter>
+      <MeContextProvider>
+        <App />
+      </MeContextProvider>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

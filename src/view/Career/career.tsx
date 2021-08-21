@@ -15,12 +15,12 @@ const CareerView = () => {
     const setChangeData = () => {
         setTimeout(() => {
             setEndData(true);
-            console.log('llegamos al quince')
-    }, 2000)
+            setItemSpet(16);
+        }, 3000)
     }
 
     return (
-        <section className='container'>
+        <section className={`container ${itemSpet === 15 ? 'bg-amarillo' : 'bg-blanco'}`}>
             {endData ? (
                 <EndData />
             ) : (
@@ -40,6 +40,7 @@ const CareerView = () => {
                         <Col>
                             {itemSpet > 0 && (
                                 <Button
+                                    className="btnBack"
                                     type='default'
                                     onClick={() => setItemSpet(itemSpet - 1)}
                                 >
@@ -49,7 +50,7 @@ const CareerView = () => {
                             </Col>
                         <Col>
                             <Button
-                                type='primary'
+                                className="btn-siguiente"
                                 onClick={() => {
                             if (itemSpet === 14){
                                 setItemSpet(itemSpet + 1);

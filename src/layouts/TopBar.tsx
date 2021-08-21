@@ -3,17 +3,21 @@ import Cookies from 'js-cookie';
 import { Button, Row, Col, Space } from 'antd';
 import { ArrowRightOutlined } from '@ant-design/icons';
 import './topbar.less';
+import { Dispatch, SetStateAction } from 'react';
 
 interface IProps {
-  onShowDrawer: () => void;
+  onShowDrawer?: Dispatch<SetStateAction<boolean>>;
 }
 
-const TopBar: React.FC<IProps> = (props) => {
-  const {onShowDrawer} = props;
+const TopBar = ({ onShowDrawer }: IProps) => {
   const closeSesion = () => {
     Cookies.remove('access-token-grama');
     window.location.href = '/login';
   };
+
+  const handleClick = () => {
+    onShowDrawer && onShowDrawer(true)
+  }
 
   return (
     <header>
@@ -31,9 +35,10 @@ const TopBar: React.FC<IProps> = (props) => {
             </div>
           </RouterLink>
         </Col>
-        <Col xs={4}>
+        {onShowDrawer ? (
+          <Col xs={4}>
           <Space className="TB-Flex-End">
-            <Button className="TB-HamburgerButton" onClick={onShowDrawer}>
+            <Button className="TB-HamburgerButton" onClick={handleClick}>
               <img src="../Menu.svg" alt="hamburger" />
             </Button>
             <Button className="TB-LogOutButton" shape="circle" type='dashed' onClick={closeSesion}>
@@ -41,6 +46,7 @@ const TopBar: React.FC<IProps> = (props) => {
             </Button>
           </Space>
         </Col>
+        ) : ''}
       </Row>
     </div>
     </header>

@@ -14,6 +14,7 @@ import { MeContext } from '../context/contextMe';
 import { HomeView } from '../view/home';
 import { GetMeUser } from '../api/users';
 import CareerView from '../view/Career/career';
+import { DashboardMain } from '../layouts/main';
 
 const token = Cookies.get('access-token-grama');
 
@@ -37,7 +38,7 @@ const routes = [
   },
   {
     path: '/',
-    // element: <MainLayout />,
+    element: <DashboardMain />,
     children: [
       { path: '404', element: <NotFound /> },
       { path: '/login', element: NotPathSesion(Auth) },

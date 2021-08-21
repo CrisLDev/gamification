@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Button, Row, Col, notification } from 'antd';
+import { Button, Row, Col, notification, Input, Typography } from 'antd';
 import '../styles/auth.less';
+import { UserOutlined } from '@ant-design/icons';
 import { loginWithGoogle } from '../util/firebase';
 // import { LoginAccess } from '../api/users';
 import Cookies from 'js-cookie';
@@ -13,6 +14,7 @@ interface User {
 
 export const Auth = () => {
     const [Loading, setLoading] = useState<boolean>(false);
+    const { Text } = Typography;
 
     const loginGoogle = () => {
         setLoading(true);
@@ -43,14 +45,15 @@ export const Auth = () => {
     return (
         <section className="container-auth">
             <Row justify="center">
-                <Col xs={15}>
-                  <img src='slide-1.svg' alt='logo escritura' />
+                <Col xs={24}>
+                  <img className='logo-app' src='slide-1.svg' alt='logo escritura' />
                 </Col>
-                <Col xs={24} style={{ textAlign: 'center' }}>
-                  <img className='logo-app' src='Gamifica tu carrera.svg' alt='logo escritura' />
-                </Col>
-                <Col>
-                  <Button type="primary" onClick={loginGoogle} loading={Loading}>ENTRAR CON GOOGLE</Button>
+                <Col style={{ textAlign: 'center' }}>
+                  <Button style={{ marginBottom: 10 }} type="primary" onClick={loginGoogle} loading={Loading}>ENTRAR CON GOOGLE</Button>
+                  <br />
+                  <Text>O</Text>
+                  <br />
+                  <Input type='email' style={{ marginTop: 10 }} size="middle" placeholder="Correo electronico" prefix={<UserOutlined />} />
                 </Col>
             </Row>
         </section>

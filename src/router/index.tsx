@@ -13,7 +13,7 @@ import { DashboardLayout } from '../layouts';
 import { MeContext } from '../context/contextMe';
 import { HomeView } from '../view/home';
 import { GetMeUser } from '../api/users';
-import CareerView from '../view/career';
+import CareerView from '../view/Career/career';
 
 const token = Cookies.get('access-token-grama');
 

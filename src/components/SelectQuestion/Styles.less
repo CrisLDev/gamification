@@ -1,0 +1,105 @@
+.SQ-Root {
+    width: 100%;
+    display: block;
+}
+
+.SQ-H3 {
+    margin: 0;
+    font-weight: bold;
+    color: #000000!important;
+}
+
+@keyframes click-wave {
+    0% {
+      height: 40px;
+      width: 40px;
+      opacity: 0.35;
+      position: relative;
+    }
+    100% {
+      height: 200px;
+      width: 200px;
+      margin-left: -80px;
+      margin-top: -80px;
+      opacity: 0;
+    }
+  }
+
+.SQ-RadioContainer{
+    display: flex;
+    align-items: baseline;
+}
+
+.SQ-RadioContainer > h3{
+    margin: 0;
+    font-weight: bold;
+    color: @primary-color!important;
+}
+
+.SQ-Radio {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    position: relative;
+    top: 13.33333px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    transition: all 0.15s ease-out 0s;
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 50%;
+    color: #fff!important;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0.5rem;
+    outline: none;
+    position: relative;
+    z-index: 1000;
+  }
+  .SQ-Radio:hover {
+    background: @primary-color;
+  }
+  .SQ-Radio:checked {
+    background: @primary-color;
+  }
+  .SQ-Radio:checked::before {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: '✓';
+    font-size: 18.66667px;
+    text-align: center;
+  }
+  .SQ-Radio:checked::after {
+    -webkit-animation: click-wave 0.65s;
+    -moz-animation: click-wave 0.65s;
+    animation: click-wave 0.65s;
+    background: #000000;
+    content: '';
+    display: block;
+    position: relative;
+    z-index: 100;
+    border-radius: 50%;
+  }
+  .SQ-Radio.radio {
+    border-radius: 50%;
+  }
+  .SQ-Radio.radio::after {
+    border-radius: 50%;
+  }
+
+  .SQ-JustificationInput{
+      margin-top: 2em;
+      padding: 0 2em 0 2em;
+  }
+
+.SQ-JustificationInput > input{
+    border: 1px solid @primary-color!important;
+    border-radius: 0!important;
+    color: @primary-color!important;
+}

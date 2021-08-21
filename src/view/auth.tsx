@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Row, Col, notification } from 'antd';
 import '../styles/auth.less';
 import { loginWithGoogle } from '../util/firebase';
-import { LoginAccess } from '../api/users';
+// import { LoginAccess } from '../api/users';
 import Cookies from 'js-cookie';
 
 interface User {

@@ -1,39 +1,24 @@
 import { Input } from 'antd';
 import React from 'react'
+import { Options } from '../Preguntas';
 import './Styles.less';
 
 interface IPorps {
     another?: boolean;
+    options: Options[];
 }
 
-const SelectQuestionComponent: React.FC<IPorps> = (props) => {
-    const {another = false} = props;
-
+export const SelectQuestionComponent = ({ another, options }: IPorps) => {
     const [prepareToJustify, setPrepareToJustify] = React.useState(false);
-
-    const [justifycation, setJustifycation] = React.useState('');
-
-    const [value, setValue] = React.useState(1);
-
-    const onChange = (e: any) => {
-        console.log('radio checked', e.target.value);
-        setValue(e.target.value);
-    };
 
     return (
         <div className="SQ-Root">
-            <label className="SQ-RadioContainer">
-                <input className="SQ-Radio" name="answer" type="radio" onClick={() => setPrepareToJustify(false)} />
-                <h3>Si.</h3>
-            </label>
-            <label className="SQ-RadioContainer">
-                <input className="SQ-Radio" name="answer" type="radio" onClick={() => setPrepareToJustify(false)} />
-                <h3>No.</h3>
-            </label>
-            <label className="SQ-RadioContainer">
-                <input className="SQ-Radio" name="answer" type="radio" onClick={() => setPrepareToJustify(false)} />
-                <h3>No estoy seguro.</h3>
-            </label>
+            {options.map(item => (
+                <label className="SQ-RadioContainer" key={item.id}>
+                    <input className="SQ-Radio" name="answer" type="radio" onClick={() => setPrepareToJustify(false)} />
+                    <h3>{item.option}.</h3>
+                </label>
+            ))}
             {another && (
                 <div>
                     <label className="SQ-RadioContainer">
@@ -51,4 +36,11 @@ const SelectQuestionComponent: React.FC<IPorps> = (props) => {
     )
 }
 
-export default SelectQuestionComponent
+export const TextareaComponent = () => {
+    const { TextArea } = Input;
+    return (
+        <div style={{ border: '1px solid #cdcdcd', borderRadius: 30 }}>
+            <TextArea placeholder='Escribe tu comentario...' required rows={4} />
+        </div>
+    )
+}

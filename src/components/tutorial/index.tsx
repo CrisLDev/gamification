@@ -22,27 +22,6 @@ export const TutorialWelcome = () => {
         <Stepper
         activeStep={itemSpet}
         connectorStateColors
-        styleConfig={{
-          activeBgColor: '#f097ac',
-          activeTextColor: 'fff',
-          completedBgColor: '#232f3e',
-          completedTextColor: 'fff',
-          inactiveBgColor: '#e0e0e0',
-          inactiveTextColor: 'fff',
-          size: '2em',
-          circleFontSize: '1em',
-          labelFontSize: '0.875rem',
-          borderRadius: '50%',
-          fontWeight: 500,
-        }}
-        connectorStyleConfig={{
-          disabledColor: '#bdbdbd',
-          activeColor: '#f097ac',
-          completedColor: '#232f3e',
-          size: 1,
-          stepSize: '2em',
-          style: 'solid',
-        }}
       >
         <div>
             <div style={{ marginBottom: 10 }}>

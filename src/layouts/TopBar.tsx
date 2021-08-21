@@ -20,7 +20,7 @@ const TopBar: React.FC<IProps> = (props) => {
       <div className='head'>
       <Row justify="space-between" align="middle">
         <Col xs={20}>
-          <RouterLink to='/app/dashboard'>
+          <RouterLink to='/app/home'>
             <div className="TB-LogoContainer">
               <img
                 src='../gamifica.svg'

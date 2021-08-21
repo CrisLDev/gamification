@@ -41,13 +41,16 @@ export const Auth = () => {
       };
 
     return (
-        <section className="container">
+        <section className="container-auth">
             <Row justify="center">
+                <Col xs={15}>
+                  <img src='slide-1.svg' alt='logo escritura' />
+                </Col>
                 <Col xs={24} style={{ textAlign: 'center' }}>
-                    <img className='logo-app' src='Gamifica tu carrera.svg' alt='logo escritura' />
+                  <img className='logo-app' src='Gamifica tu carrera.svg' alt='logo escritura' />
                 </Col>
                 <Col>
-                    <Button type="primary" onClick={loginGoogle} loading={Loading}>ENTRAR CON GOOGLE</Button>
+                  <Button type="primary" onClick={loginGoogle} loading={Loading}>ENTRAR CON GOOGLE</Button>
                 </Col>
             </Row>
         </section>

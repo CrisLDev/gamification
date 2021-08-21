@@ -1,8 +1,9 @@
 import { Button, Col, Row } from 'antd'
-import React from 'react'
-import ButtonHorizontalAnswerComponent from '../components/ButtonHorizontalAnswer/ButtonHorizontalAnswer'
-import SquareQuestionComponent from '../components/SquareQuestion/SquareQuestion'
-import SquareTitleComponent from '../components/SquareTitle/SquareTitle'
+import ButtonHorizontalAnswerComponent from '../../components/ButtonHorizontalAnswer/ButtonHorizontalAnswer'
+import SelectQuestionComponent from '../../components/SelectQuestion/SelectQuestion'
+import SquareQuestionComponent from '../../components/SquareQuestion/SquareQuestion'
+import SquareTitleComponent from '../../components/SquareTitle/SquareTitle'
+import './Styles.less'
 
 const CareerView = () => {
     return (
@@ -21,8 +22,11 @@ const CareerView = () => {
             <Col span={24}>
                 <ButtonHorizontalAnswerComponent />
             </Col>
+            <Col span={24}>
+                <SelectQuestionComponent another />
+            </Col>
             <Col span={24} offset={14}>
-                <Button type="primary" shape="round">
+                <Button className="C-ButonNex" type="primary" shape="round">
                     Siguiente
                 </Button>
             </Col>

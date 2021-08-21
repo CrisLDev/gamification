@@ -4,14 +4,31 @@ import MarketingJson from '../../mock/questions-marketing.json';
 import './Styles.less'
 import { useState } from 'react';
 import { Row, Col, Button, Typography } from 'antd';
+import Loading from '../../components/Loading/Loading';
+import EndData from '../../components/EndData/EndData';
 
 const CareerView = () => {
     const [itemSpet, setItemSpet] = useState<number>(0);
+    const [endData, setEndData] = useState(false);
     const { Text } = Typography;
+
+    const setChangeData = () => {
+        setTimeout(() => {
+            setEndData(true);
+            console.log('llegamos al quince')
+    }, 2000)
+    }
 
     return (
         <section className='container'>
-            <Stepper
+            {endData ? (
+                <EndData />
+            ) : (
+                <>
+                {itemSpet === 15 ? (
+                <Loading/>
+            ):  (
+                <Stepper
                 activeStep={itemSpet}
                 connectorStateColors
             >
@@ -33,8 +50,14 @@ const CareerView = () => {
                         <Col>
                             <Button
                                 type='primary'
-                                onClick={() => setItemSpet(itemSpet + 1)}
-                            >
+                                onClick={() => {
+                            if (itemSpet === 14){
+                                setItemSpet(itemSpet + 1);
+                                setChangeData()
+                            } else{
+                                setItemSpet(itemSpet + 1);
+                            }
+                            }}>
                                 {MarketingJson.length === itemSpet + 1 ? 'Terminar' : 'Siguiente'}
                             </Button>
                         </Col>
@@ -45,6 +68,9 @@ const CareerView = () => {
                     </Row>
                 </div>
             </Stepper>
+            )}
+                </>
+            )}
         </section>
     )
 }

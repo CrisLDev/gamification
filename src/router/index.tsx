@@ -13,6 +13,7 @@ import { DashboardLayout } from '../layouts';
 import { MeContext } from '../context/contextMe';
 import { HomeView } from '../view/home';
 import { GetMeUser } from '../api/users';
+import CareerView from '../view/career';
 
 const token = Cookies.get('access-token-grama');
 
@@ -30,6 +31,7 @@ const routes = [
     element: <DashboardLayout />,
     children: [
       { path: 'home', element: PathSesion(HomeView) },
+      { path: 'career', element: PathSesion(CareerView) },
       { path: '*', element: <Navigate to='/404' /> },
     ],
   },

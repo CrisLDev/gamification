@@ -1,3 +1,4 @@
+import { Col, Row } from 'antd'
 import React from 'react'
 import './Styles.less'
 
@@ -62,6 +63,17 @@ const EndData = () => {
             </div>
             <div className="ED-FooterMarketer">
                 <h2>Contactate con un Marketer</h2>
+                <Row>
+                    <Col span={5}>
+                        <div className="ED-AvatarContainer">
+                            <img className="ED-FluidImg" src="../elwe.png" alt="loading" />
+                        </div>
+                    </Col>
+                    <Col span={12}  offset={7}>
+                            <p>Habla con Augusto Huerta.</p>
+                            <p>Estudiante de marketing y administración en la UPN.</p>
+                    </Col>
+                </Row>
             </div>
         </div>
     )

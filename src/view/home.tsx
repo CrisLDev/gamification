@@ -14,7 +14,9 @@ export const HomeView = () => {
         <section className="container">
             <Row justify="center">
                 <Col xs={24} style={{ textAlign: 'center' }}>
-                    <Text style={{ fontSize: 18 }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eos voluptas illo iure cumque sequi sed, sapiente officia quisquam delectus ipsam iusto ipsa, eum explicabo laboriosam consequatur. Nesciunt, fugit ut!</Text>
+                    <Text style={{ fontSize: 18 }}>Descubre las diferentes habilidades
+que tienes y explora tus opciones
+para trabajar en lo que más te guste</Text>
                     <img width='90%' src='../slide-2.svg' alt='comenzemos' />
                 </Col>
                 <Col xs={24}>

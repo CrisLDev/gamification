@@ -1,0 +1,49 @@
+@import '../styles/theme.less';
+
+header {
+    padding: 0 2em 0 2em;
+}
+
+.head {
+    background-color: @white-color;
+    padding: 10px;
+    border-bottom: 0.2em solid rgb(41, 41, 41);
+}
+
+.TB-HamburgerButton{
+    border: 0;
+    height: fit-content;
+    padding: 0;
+    display: none;
+}
+
+.TB-LogOutButton{
+    display: block;
+}
+
+.TB-Flex-End{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.TB-LogoContainer{
+    max-width: 10.8em;
+    width: 10.8em;
+}
+
+.TB-ImgFluid{
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen {
+    @media (max-width: 740.98px) {
+        .TB-HamburgerButton{
+            display: block;
+        }
+        .TB-LogOutButton{
+            display: none;
+        }
+    }
+  }

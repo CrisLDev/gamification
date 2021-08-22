@@ -9,7 +9,7 @@
   user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 body {
-  background: @black-color;
+  background: @white-color;
   color: @gray-color !important;
 }
 h1,
@@ -38,28 +38,30 @@ h3 {
 .big-container {
   width: 100%;
 }
-.container {
-  padding-top: 75px;
-  width: 100%;
+.bg-amarillo {
+  background-color: @amarillo-loading-color;
+}
+.bg-blanco {
+  background-color: @white-color;
+}
+.container-auth {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
   &.nopadded {
     padding-top: 0;
   }
 }
-.ant-input {
-  background: rgba(255, 255, 255, 0.3) !important;
-  color: rgba(255, 255, 255, 0.9) !important;
-  border: none !important;
-  border-radius: 32px !important;
-}
-.ant-input-affix-wrapper {
-  background: rgba(255, 255, 255, 0.3) !important;
-  color: rgba(255, 255, 255, 0.9) !important;
-  border: none !important;
-  border-radius: 32px !important;
-  .ant-input {
-    background: none !important;
-    color: rgba(255, 255, 255, 0.9);
-    border: none !important;
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  &.nopadded {
+    padding-top: 0;
   }
 }
 .ant-skeleton {

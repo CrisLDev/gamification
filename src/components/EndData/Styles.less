@@ -1,0 +1,87 @@
+@import '../../styles/theme.less';
+
+.ED-Container{
+    text-align: center;
+    padding: 10px;
+}
+
+.ED-Container > h1{
+    font-weight: bold;
+    color: @primary-color!important;
+    font-size: 3em;
+}
+
+.ED-Container > div > h2{
+    font-weight: bold;
+    text-align: left;
+    color: @primary-color !important;
+    font-size: 1.5em;
+    margin: 0;
+    display: flex;
+    justify-content: start;
+}
+
+.ED-Container > div > span{
+    color: @primary-color!important;
+}
+
+.ED-FluidImg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.ED-Ul{
+    color: @primary-color!important;
+    padding-left: 1.5em;
+}
+
+.ED-Li{
+    display: flex;
+    justify-content: start;
+}
+
+.ED-FooterMarketer{
+    background-color: #FF4F5B;
+    padding: 1em;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.ED-Container > .ED-FooterMarketer > h2{
+    color: @white-color!important;
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.ED-AvatarContainer{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.sobra-circle-before {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(242, 168, 173, 0.8);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    border-radius: 50%;
+}
+
+.sobra-circle-after {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(242, 168, 173, 0.8);
+    position: absolute;
+    bottom: 13px;
+    left: 10px;
+    z-index: 5;
+    border-radius: 50%;
+}

@@ -1,0 +1,314 @@
+[
+    {
+        "id": 1,
+        "pregunta": "¿Sientes curiosidad sobre cómo funcionan las computadoras por dentro?",
+        "type": "button",
+        "options": [
+            {
+                "id": 1,
+                "option": "No"
+            },
+            {
+                "id": 2,
+                "option": "Me es igual"
+            },
+            {
+                "id": 3,
+                "option": "Si"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "pregunta": "¿Qué tan segura / seguro te sientes con las matemáticas?        ",
+        "type": "button",
+        "options": [
+            {
+                "id": 1,
+                "option": "Inseguro"
+            },
+            {
+                "id": 2,
+                "option": "Me es igual"
+            },
+            {
+                "id": 3,
+                "option": "Seguro"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "pregunta": "¿Sientes curiosidad sobre cómo funcionan las computadoras por dentro?",
+        "type": "button",
+        "options": [
+            {
+                "id": 1,
+                "option": "No"
+            },
+            {
+                "id": 2,
+                "option": "Me es igual"
+            },
+            {
+                "id": 3,
+                "option": "Si"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "pregunta": "¿En cuál situación te gustaría ser parte?        ",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Analizando datos"
+            },
+            {
+                "id": 2,
+                "option": "Guiando equipos de proyectos"
+            },
+            {
+                "id": 3,
+                "option": "Creando páginas web"
+            },
+            {
+                "id": 4,
+                "option": "Grabando y editando videos."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "pregunta": "Toda profesión requiere dedicación. ¿Cuál característica te interesaría desarrollar más?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Comprensión de los consumidores de un producto"
+            },
+            {
+                "id": 2,
+                "option": "Análisis de probabilidad, estadística y datos."
+            },
+            {
+                "id": 3,
+                "option": "Transformar ideas en páginas web, apps y programas"
+            },
+            {
+                "id": 4,
+                "option": " Narración y desarrollo de historias en videos, películas, series.                "
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "pregunta": "Para ti. ¿Cuál habilidad es la más importante?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Ser creativo. Encontrar conexiones antes no vistas."
+            },
+            {
+                "id": 2,
+                "option": "Ser lógico: Descubrir soluciones mediante el razonamiento."
+            },
+            {
+                "id": 3,
+                "option": "Ser extrovertido: Desarrollar relaciones fácilmente."
+            },
+            {
+                "id": 4,
+                "option": "Ser líder: Conectar a todo el equipo en un solo objetivo."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "pregunta": " Si estuvieras en un proyecto. ¿Qué te gustaría estar haciendo?        ",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Dando a conocer el proyecto al mundo."
+            },
+            {
+                "id": 2,
+                "option": "Creando los productos/servicios del proyecto.                "
+            },
+            {
+                "id": 3,
+                "option": "Poniendo las cuentas del proyecto en orden."
+            },
+            {
+                "id": 4,
+                "option": "Explicar y llevar la solución del proyecto a otras personas."
+            },
+            {
+                "id": 5,
+                "option": "Lograr que los clientes logren sus objetivos con el producto/servicio."
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "pregunta": " Si tuvieras un negocio. ¿A qué componente le dedicarías más tiempo?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Análisis del mercado, clientes, etc."
+            },
+            {
+                "id": 2,
+                "option": "Creación y mejora del servicio y/o producto."
+            },
+            {
+                "id": 3,
+                "option": "Ordenamiento de la administración, finanzas."
+            },
+            {
+                "id": 4,
+                "option": "Reclutamiento y soporte al equipo (Talento humano)."
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "pregunta": "¿En qué ambiente te interesaría trabajar?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Oficina."
+            },
+            {
+                "id": 2,
+                "option": "Otros países."
+            },
+            {
+                "id": 3,
+                "option": "Campo / rural (Fuera de la ciudad)."
+            },
+            {
+                "id": 4,
+                "option": "En casa."
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "pregunta": "De las opciones. ¿Qué rubro te interesa más estudiar/trabajar?",
+        "type": "radio && textarea",
+        "options": [
+            {
+                "id": 1,
+                "option": "Curar y ayudar a las personas."
+            },
+            {
+                "id": 2,
+                "option": "Facilitar el trabajo a través de las computadoras."
+            },
+            {
+                "id": 3,
+                "option": "Ser parte de la creación de contenido digital (Post en redes sociales, videos, etc)."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "pregunta": "¿Cuál es tu opinión del trabajo en equipo?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Me siento más cómodo trabajando solo."
+            },
+            {
+                "id": 2,
+                "option": "Prefiero trabajar con otras personas"
+            },
+            {
+                "id": 3,
+                "option": "Me es indiferente, puedo trabajar con o sin equipo."
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "pregunta": "¿Cuál sientes que es tu habilidad más desarrollada?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Capacidad de entender las motivaciones y necesidades de las personas."
+            },
+            {
+                "id": 2,
+                "option": "Capacidad deductiva y lógica sobre el por qué suceden las cosas."
+            },
+            {
+                "id": 3,
+                "option": "Pensamiento científico."
+            },
+            {
+                "id": 4,
+                "option": "Comunicación clara y asertiva."
+            },
+            {
+                "id": 5,
+                "option": "Relaciones personales con otros compañeros."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "pregunta": "¿Cuál crees que podría ser tu carrera ideal?",
+        "type": "textarea",
+        "options": []
+    },
+    {
+        "id": 14,
+        "pregunta": "¿Qué opción te parece más interesante?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Diseñar campañas de marketing que hagan crecer a la empresa."
+            },
+            {
+                "id": 2,
+                "option": "Diseñar productos y arte que inspire a las personas a involucrarse con la empresa."
+            },
+            {
+                "id": 3,
+                "option": "Lograr que las personas que conoces crezcan y alcancen logros increíbles."
+            },
+            {
+                "id": 4,
+                "option": "Lograr transformar ideas en soluciones digitales mediante las computadoras."
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "pregunta": "¿Te sientes libre de decidir qué carrera quieres empezar?",
+        "type": "radio",
+        "options": [
+            {
+                "id": 1,
+                "option": "Mis padres me han recomendado una carrera, así que lo estoy pensando."
+            },
+            {
+                "id": 2,
+                "option": "Tengo mis sueños claros. Solo necesito enfocarme."
+            },
+            {
+                "id": 3,
+                "option": "Debo escoger una carrera que me de dinero."
+            }
+        ]
+    }
+]

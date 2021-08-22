@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+# Gamafica tu carrera
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A boilerplate of Server Side Rendering with Next.js
 
-## Available Scripts
+[![CircleCI](https://circleci.com/gh/locol23/next-redux-typescript-starter/tree/master.svg?style=svg)](https://circleci.com/gh/locol23/next-redux-typescript-starter/tree/master)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-In the project directory, you can run:
+# Libraries
 
-### `yarn start`
+- Vercel
+- React
+- Jest
+- TypeScript
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Setup
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+git clone https://github.com/CrisLDev/gamification.git
+cd gamafication
+yarn install
+yarn start
+```
 
-### `yarn test`
+# Development
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+yarn start
+```
 
-### `yarn build`
+## Comenzando 🚀
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Mira **Deployment** para conocer como desplegar el proyecto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Pre-requisitos 📋
 
-### `yarn eject`
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+_Tener instalado Node Js en tu ordenador, puedes obtener desde el sitio oficial para diferentes SOS._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [Node js](https://nodejs.org/es/) - Entorno de ejecucion javascript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Construido con 🛠️
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_Para el desarrollo de esta api rest se utilizo las siguientes herramientas._
 
-## Learn More
+- [React](https://es.reactjs.org/) - Libreria de interzas ded usuario reactivo.
+- [Ant Desing](https://ant.design/components/grid/) - Componentes para react
+- [Vercel](https://vercel.com/) - Plataforma para deploy y test A - B.
+- [Axios](https://github.com/axios/axios) - Fetch de datos.
+- [TypeScript](https://www.typescriptlang.org/) - Tipado fuerte para javascript.
+- [Firebase](https://firebase.google.com/?hl=es) - Auth para facebbok y google.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Autores ✒️
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Cristhian Moreira** - _Developer full stack_ - [Cristhian Moreira](https://www.facebook.com/cristian.moreirapazmino.58)
+
+- **Andrés Coello** - _Developer full stack_ - [Andres Coello](https://www.instagram.com/coellogoyes/)
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT)
+
+## Expresiones de Gratitud 🎁
+
+- Pasate por mi perfil para ver algun otro proyecto 📢
+- Desarrollemos alguna app juntos, puedes escribirme en mis redes.
+- Muchas gracias por pasarte por este proyecto 🤓.
+

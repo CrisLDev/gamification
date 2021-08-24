@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Button, Drawer, Avatar, Typography } from 'antd';
 import Cookies from 'js-cookie';
 import { Link as RouterLink } from 'react-router-dom';
 import './Sidebar.less';
+import { MeContext } from '../context/contextMe';
+import { AVATAR_DEFAULT } from '../api';
 
 interface IProps {
     visible: boolean;
@@ -11,6 +13,7 @@ interface IProps {
 
 const Sidebar: React.FC<IProps> = (props) => {
   const { Text } = Typography;
+  const { me } = useContext(MeContext);
 
     const {visible, onCloseDrawer} = props;
 
@@ -39,9 +42,9 @@ const Sidebar: React.FC<IProps> = (props) => {
           key={'left'}
         >
           <div style={{ textAlign: 'center' }}>
-            <Avatar size={64} src='https://images.pexels.com/photos/5368679/pexels-photo-5368679.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' />
+            <Avatar size={64} src={me.avatar || AVATAR_DEFAULT} />
             <br />
-            <Text>Karla Ramirez</Text>
+            <Text>{me.email}</Text>
           </div>
           <br />
           <Button block type='dashed' onClick={closeSesion}>

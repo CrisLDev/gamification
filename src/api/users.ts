@@ -1,13 +1,17 @@
 import { api } from ".";
 
-export const LoginAccess = async (option: { email: string }) => {
+interface Login {
+  email: string,
+  avatar?: string,
+  userName?: string,
+}
+
+export const LoginAccess = async (option: { data: Login }) => {
     // api.defaults.headers['access-token'] = option.token;
     const response = await api({
       method: 'POST',
       url: '/users/login',
-      data: {
-        email: option.email,
-      },
+      data: option.data,
     });
     return response;
   };

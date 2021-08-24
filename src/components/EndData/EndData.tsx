@@ -12,60 +12,61 @@ const EndData = () => {
             </div>
             <div>
                 <h2>Conocimientos que debes saber:</h2>
-                <span>Si o sí, estas son las habilidades básicas a tener:</span>
+                <span>Sí o Sí, estas son las habilidades básicas a tener:</span>
                 <ul className="ED-Ul">
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
+                    <li className="ED-Li">- Cómo descubrir necesidades y motivaciones del público de un negocio.</li>
+                    <li className="ED-Li">- Cómo el producto / servicio se conecta con el público.</li>
+                    <li className="ED-Li">- Estadística y análisis de datos para toma de decisiones.</li>
+                    <li className="ED-Li">- Cómo trabajar en equipo (Sobretodo en pequeñas y medianas empresas).</li>
+                    <li className="ED-Li">- Comportamiento y psicología del consumidor.</li>
                 </ul>
             </div>
             <div>
                 <h2>¿Razón?</h2>
-                <span>Si o sí, estas son las habilidades básicas a tener:</span>
                 <ul className="ED-Ul">
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
+                    <li className="ED-Li">- <b>No puedes conectar</b> negocios <b>a personas que no conoces.</b></li>
+                    <li className="ED-Li">- No puedes conocer a las personas si no las analisas.</li>
+                    <li className="ED-Li">- No puedes lograr esto sin saber a quién preguntar, a quién pedir información y a quién presentar las ideas en un equipo.</li>
+                    <p>Recuerda: No se trata de ser creativo, se trata de hacer entender al público y lograr que conecte con el negocio y su equipo</p>
                 </ul>
             </div>
             <div>
-                <h2>Conocimientos que debes saber:</h2>
-                <span>Si o sí, estas son las habilidades básicas a tener:</span>
+                <h2>Especialidades:</h2>
+                <span>Se encuentran:</span>
                 <ul className="ED-Ul">
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
+                    <li className="ED-Li">- Growth marketing.</li>
+                    <li className="ED-Li">- Marketing tradicional.</li>
+                    <li className="ED-Li" style={{display: 'block'}}>- Marketing digital.
+                        <div>
+                            <ul>
+                                <li>Subespecialidad: Redes sociales.</li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
             </div>
             <div>
-                <h2>Conocimientos que debes saber:</h2>
-                <span>Si o sí, estas son las habilidades básicas a tener:</span>
+                <h2>Salarios que da la carrera:</h2>
                 <ul className="ED-Ul">
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
-                    <li className="ED-Li">- al go coherente.</li>
+                    <li className="ED-Li">- Al inicio, porque recién empiezas, tendrás el mínimo. Con suerte unos 100 dólares más que el mínimo. Pero, a medida que creces, los salarios están entre 350 dolares a 1,000.</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Materias que van a ser importantes:</h2>
+                <ul className="ED-Ul">
+                    <li className="ED-Li">- ¿Interesado en estudiar la carrera?</li>
+                </ul>
+                <span>Aquí los 3 cursos a estar atento:</span>
+                <ul className="ED-Ul">
+                    <li className="ED-Li">- Probabilidad y estadística</li>
+                    <li className="ED-Li">- Psicología del consumidor</li>
+                    <li className="ED-Li">- Investigación de mercados</li>
                 </ul>
             </div>
             <div className="ED-FooterMarketer">
                 <h2>Contactate con un Marketer</h2>
                 <Row justify='space-between'>
-                    <Col xs={6} md={12}>
+                    <Col xs={6} md={12} className="ED-ANTColCentered">
                         <figure className="ED-AvatarContainer">
                             <img className="ED-FluidImg" src="../elwe.png" alt="loading" />
                         </figure>
@@ -77,11 +78,11 @@ const EndData = () => {
                     <Col></Col>
                     <Col xs={10} md={12}>
                         <TwitterOutlined style={{ fontSize: 30, marginRight: 6 }} />
-                        @Username
+                        @AugustoHuerta1
                     </Col>
                     <Col xs={10} md={12}>
                         <WhatsAppOutlined style={{ fontSize: 30, marginRight: 6 }} />
-                        @Username
+                        @UMobdream999
                     </Col>
                 </Row>
             </div>

@@ -12,7 +12,7 @@ const EndData = () => {
             </div>
             <div>
                 <h2>Conocimientos que debes saber:</h2>
-                <span>Sí o Sí, estas son las habilidades básicas a tener:</span>
+                <p>Sí o Sí, estas son las habilidades básicas a tener:</p>
                 <ul className="ED-Ul">
                     <li className="ED-Li">- Cómo descubrir necesidades y motivaciones del público de un negocio.</li>
                     <li className="ED-Li">- Cómo el producto / servicio se conecta con el público.</li>
@@ -24,15 +24,16 @@ const EndData = () => {
             <div>
                 <h2>¿Razón?</h2>
                 <ul className="ED-Ul">
-                    <li className="ED-Li">- <b>No puedes conectar</b> negocios <b>a personas que no conoces.</b></li>
+                    <span>-No puedes conectar negocios a personas que no conoces.</span>
                     <li className="ED-Li">- No puedes conocer a las personas si no las analisas.</li>
                     <li className="ED-Li">- No puedes lograr esto sin saber a quién preguntar, a quién pedir información y a quién presentar las ideas en un equipo.</li>
+                    <p></p>
                     <p>Recuerda: No se trata de ser creativo, se trata de hacer entender al público y lograr que conecte con el negocio y su equipo</p>
                 </ul>
             </div>
             <div>
                 <h2>Especialidades:</h2>
-                <span>Se encuentran:</span>
+                <p>Se encuentran:</p>
                 <ul className="ED-Ul">
                     <li className="ED-Li">- Growth marketing.</li>
                     <li className="ED-Li">- Marketing tradicional.</li>
@@ -56,7 +57,7 @@ const EndData = () => {
                 <ul className="ED-Ul">
                     <li className="ED-Li">- ¿Interesado en estudiar la carrera?</li>
                 </ul>
-                <span>Aquí los 3 cursos a estar atento:</span>
+                <p>Aquí los 3 cursos a estar atento:</p>
                 <ul className="ED-Ul">
                     <li className="ED-Li">- Probabilidad y estadística</li>
                     <li className="ED-Li">- Psicología del consumidor</li>
@@ -73,16 +74,16 @@ const EndData = () => {
                     </Col>
                     <Col span={1}></Col>
                     <Col xs={17} md={11}>
-                        <p style={{ fontSize: 15 }}>Habla con Augusto Huerta, estudiante de marketing y administración en la UPN.</p>
+                        <p style={{ fontSize: 15, color: '#fff' }}>Habla con Augusto Huerta, estudiante de marketing y administración en la UPN.</p>
                     </Col>
                     <Col></Col>
-                    <Col xs={10} md={12}>
-                        <TwitterOutlined style={{ fontSize: 30, marginRight: 6 }} />
-                        @AugustoHuerta1
+                    <Col xs={10} md={12} style={{ textAlign: 'center' }}>
+                        <TwitterOutlined style={{ fontSize: 30, marginRight: 6, color: '#fff' }} />
+                        <span style={{ color: '#fff' }}>@AugustoHuerta1</span>
                     </Col>
-                    <Col xs={10} md={12}>
-                        <WhatsAppOutlined style={{ fontSize: 30, marginRight: 6 }} />
-                        @UMobdream999
+                    <Col xs={10} md={12} style={{ textAlign: 'center' }}>
+                        <WhatsAppOutlined style={{ fontSize: 30, marginRight: 6, color: '#fff' }} />
+                        <span style={{ color: '#fff' }}>@UMobdream999</span>
                     </Col>
                 </Row>
             </div>

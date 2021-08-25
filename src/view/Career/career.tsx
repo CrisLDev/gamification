@@ -1,9 +1,9 @@
 import { Question } from '../../components/Preguntas'
 import { Stepper } from 'react-form-stepper'
-import MarketingJson from '../../mock/questions-marketing.json';
+import QuestionsJson from '../../mock/questions.json';
 import './Styles.less'
 import { useState } from 'react';
-import { Row, Col, Button, Typography } from 'antd';
+import { Row, Col, Button, Typography, notification } from 'antd';
 import Loading from '../../components/Loading/Loading';
 import EndData from '../../components/EndData/EndData';
 
@@ -33,7 +33,7 @@ const CareerView = () => {
                 connectorStateColors
             >
                 <div>
-                    {MarketingJson.map((item, index) => index === itemSpet && <Question key={item.id} pregunta={item} />)}
+                    {QuestionsJson.map((item, index) => index === itemSpet && <Question key={item.id} pregunta={item} />)}
                     <br />
                     <br />
                     <Row justify='space-between'>
@@ -52,19 +52,27 @@ const CareerView = () => {
                             <Button
                                 className="btn-siguiente"
                                 onClick={() => {
-                            if (itemSpet === 14){
-                                setItemSpet(itemSpet + 1);
-                                setChangeData()
-                            } else{
-                                setItemSpet(itemSpet + 1);
-                            }
-                            }}>
-                                {MarketingJson.length === itemSpet + 1 ? 'Terminar' : 'Siguiente'}
+                                    if(true){
+                                        notification['warning']({
+                                            message: 'NO tan deprisa 😰',
+                                            description: 'Selecciona una respuesta',
+                                        });
+                                        return;
+                                    }
+
+                                    if (itemSpet === 14){
+                                        setItemSpet(itemSpet + 1);
+                                        setChangeData()
+                                    } else{
+                                        setItemSpet(itemSpet + 1);
+                                    }
+                                }}>
+                                {QuestionsJson.length === itemSpet + 1 ? 'Terminar' : 'Siguiente'}
                             </Button>
                         </Col>
                         <Col xs={24}>
                             <br />
-                            <Text>{itemSpet + 1} / {MarketingJson.length} Preguntas</Text>
+                            <Text>{itemSpet + 1} / {QuestionsJson.length} Preguntas</Text>
                         </Col>
                     </Row>
                 </div>

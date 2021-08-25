@@ -86,7 +86,7 @@ export const Auth = () => {
                   <img className='logo-app' src='slide-1.svg' alt='logo escritura' />
                 </Col>
                 <Col style={{ textAlign: 'center' }}>
-                  <Button style={{ marginBottom: 10 }} type="primary" onClick={loginGoogle} loading={Loading}>ENTRAR CON GOOGLE</Button>
+                  <Button block style={{ marginBottom: 10 }} type="primary" onClick={loginGoogle} loading={Loading}>ENTRAR CON GOOGLE</Button>
                   <br />
                   <Text>O</Text>
                   <br />

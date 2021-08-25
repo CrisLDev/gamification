@@ -6,7 +6,7 @@ import SquareQuestionComponent from '../SquareQuestion/SquareQuestion';
 import SquareTitleComponent from '../SquareTitle/SquareTitle';
 
 export interface Options {
-    id: number,
+    id: string,
     option: string,
 }
 

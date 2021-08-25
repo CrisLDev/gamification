@@ -5,15 +5,15 @@
         "type": "button",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "No"
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Me es igual"
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Si"
             }
         ]
@@ -24,15 +24,15 @@
         "type": "button",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Inseguro"
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Me es igual"
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Seguro"
             }
         ]
@@ -43,15 +43,15 @@
         "type": "button",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "No"
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Me es igual"
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Si"
             }
         ]
@@ -62,19 +62,19 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Analizando datos"
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Guiando equipos de proyectos"
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Creando páginas web"
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "Grabando y editando videos."
             }
         ]
@@ -85,19 +85,19 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Comprensión de los consumidores de un producto"
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Análisis de probabilidad, estadística y datos."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Transformar ideas en páginas web, apps y programas"
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": " Narración y desarrollo de historias en videos, películas, series.                "
             }
         ]
@@ -108,19 +108,19 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Ser creativo. Encontrar conexiones antes no vistas."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Ser lógico: Descubrir soluciones mediante el razonamiento."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Ser extrovertido: Desarrollar relaciones fácilmente."
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "Ser líder: Conectar a todo el equipo en un solo objetivo."
             }
         ]
@@ -131,23 +131,23 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Dando a conocer el proyecto al mundo."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Creando los productos/servicios del proyecto.                "
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Poniendo las cuentas del proyecto en orden."
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "Explicar y llevar la solución del proyecto a otras personas."
             },
             {
-                "id": 5,
+                "id": "E",
                 "option": "Lograr que los clientes logren sus objetivos con el producto/servicio."
             }
         ]
@@ -158,19 +158,19 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Análisis del mercado, clientes, etc."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Creación y mejora del servicio y/o producto."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Ordenamiento de la administración, finanzas."
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "Reclutamiento y soporte al equipo (Talento humano)."
             }
         ]
@@ -181,19 +181,19 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Oficina."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Otros países."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Campo / rural (Fuera de la ciudad)."
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "En casa."
             }
         ]
@@ -204,15 +204,15 @@
         "type": "radio && textarea",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Curar y ayudar a las personas."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Facilitar el trabajo a través de las computadoras."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Ser parte de la creación de contenido digital (Post en redes sociales, videos, etc)."
             }
         ]
@@ -223,15 +223,15 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Me siento más cómodo trabajando solo."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Prefiero trabajar con otras personas"
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Me es indiferente, puedo trabajar con o sin equipo."
             }
         ]
@@ -242,23 +242,23 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Capacidad de entender las motivaciones y necesidades de las personas."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Capacidad deductiva y lógica sobre el por qué suceden las cosas."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Pensamiento científico."
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "Comunicación clara y asertiva."
             },
             {
-                "id": 5,
+                "id": "E",
                 "option": "Relaciones personales con otros compañeros."
             }
         ]
@@ -275,19 +275,19 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Diseñar campañas de marketing que hagan crecer a la empresa."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Diseñar productos y arte que inspire a las personas a involucrarse con la empresa."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Lograr que las personas que conoces crezcan y alcancen logros increíbles."
             },
             {
-                "id": 4,
+                "id": "D",
                 "option": "Lograr transformar ideas en soluciones digitales mediante las computadoras."
             }
         ]
@@ -298,15 +298,15 @@
         "type": "radio",
         "options": [
             {
-                "id": 1,
+                "id": "A",
                 "option": "Mis padres me han recomendado una carrera, así que lo estoy pensando."
             },
             {
-                "id": 2,
+                "id": "B",
                 "option": "Tengo mis sueños claros. Solo necesito enfocarme."
             },
             {
-                "id": 3,
+                "id": "C",
                 "option": "Debo escoger una carrera que me de dinero."
             }
         ]

@@ -1,0 +1,457 @@
+[
+    {
+        "carrera": "Marketing",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["A", "B", "N"]
+            },
+            {
+                "id": 2,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 4,
+                "opciones": ["A", "B", "N", "C"]
+            },
+            {
+                "id": 5,
+                "opciones": ["A", "N", "N", "N"]
+            },
+            {
+                "id": 6,
+                "opciones": ["A", "C", "N", "D"]
+            },
+            {
+                "id": 7,
+                "opciones": ["A", "N", "N", "D", "E"]
+            },
+            {
+                "id": 8,
+                "opciones": ["A", "N", "N", "N"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "N", "C", "N"]
+            },
+            {
+                "id": 11,
+                "opciones": ["N", "N", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["A", "B", "N", "D", "N"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["A", "N", "N", "N"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    },
+    {
+        "carrera": "Programacion",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["N", "N", "C"]
+            },
+            {
+                "id": 2,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["N", "N", "A"]
+            },
+            {
+                "id": 4,
+                "opciones": ["N", "N", "C", "N"]
+            },
+            {
+                "id": 5,
+                "opciones": ["N", "N", "C", "N"]
+            },
+            {
+                "id": 6,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 7,
+                "opciones": ["N", "B", "N", "N", "N"]
+            },
+            {
+                "id": 8,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 11,
+                "opciones": ["A", "N", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["N", "B", "C", "N", "N"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["N", "N", "D"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    },
+    {
+        "carrera": "Data Analysis",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["N", "N", "C"]
+            },
+            {
+                "id": 2,
+                "opciones": ["N", "N", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["A", "N", "C"]
+            },
+            {
+                "id": 4,
+                "opciones": ["A", "N", "N", "N"]
+            },
+            {
+                "id": 5,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 6,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 7,
+                "opciones": ["N", "B", "N", "N", "E"]
+            },
+            {
+                "id": 8,
+                "opciones": ["A", "B", "N", "N"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 11,
+                "opciones": ["A", "N", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["N", "B", "C", "N", "N"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["N", "N", "D"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    },
+    {
+        "carrera": "Project Manager",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["A", "N", "N"]
+            },
+            {
+                "id": 2,
+                "opciones": ["N", "B", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["A", "N", "C"]
+            },
+            {
+                "id": 4,
+                "opciones": ["A", "B", "N", "N"]
+            },
+            {
+                "id": 5,
+                "opciones": ["A", "B", "C", "D"]
+            },
+            {
+                "id": 6,
+                "opciones": ["N", "B", "C", "D"]
+            },
+            {
+                "id": 7,
+                "opciones": ["N", "B", "N", "D", "E"]
+            },
+            {
+                "id": 8,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "N", "C", "N"]
+            },
+            {
+                "id": 11,
+                "opciones": ["N", "B", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["A", "B", "C", "D", "E"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["N", "B", "C", "D"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    },
+    {
+        "carrera": "Recursos Humanos",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["A", "B", "N"]
+            },
+            {
+                "id": 2,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["N", "B", "N"]
+            },
+            {
+                "id": 4,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 5,
+                "opciones": ["A", "B", "N", "N"]
+            },
+            {
+                "id": 6,
+                "opciones": ["N", "N", "C", "D"]
+            },
+            {
+                "id": 7,
+                "opciones": ["N", "N", "N", "D", "E"]
+            },
+            {
+                "id": 8,
+                "opciones": ["N", "N", "N", "D"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "N", "N", "D"]
+            },
+            {
+                "id": 11,
+                "opciones": ["N", "B", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["A", "N", "N", "D", "E"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["N", "N", "C", "N"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    },
+    {
+        "carrera": "Finanzas",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["A", "B", "N"]
+            },
+            {
+                "id": 2,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["N", "B", "N"]
+            },
+            {
+                "id": 4,
+                "opciones": ["A", "N", "N", "N"]
+            },
+            {
+                "id": 5,
+                "opciones": ["A", "B", "N", "N"]
+            },
+            {
+                "id": 6,
+                "opciones": ["N", "B", "C", "N"]
+            },
+            {
+                "id": 7,
+                "opciones": ["N", "N", "C", "N", "N"]
+            },
+            {
+                "id": 8,
+                "opciones": ["N", "N", "C", "N"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "N", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "N", "N", "D"]
+            },
+            {
+                "id": 11,
+                "opciones": ["N", "N", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["N", "B", "N", "D", "E"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["N", "N", "N", "D"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    },
+    {
+        "carrera": "Comunicación Audiovisual",
+        "opcionesByPregunta": [
+            {
+                "id": 1,
+                "opciones": ["A", "B", "N"]
+            },
+            {
+                "id": 2,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 3,
+                "opciones": ["N", "B", "N"]
+            },
+            {
+                "id": 4,
+                "opciones": ["N", "N", "N", "D"]
+            },
+            {
+                "id": 5,
+                "opciones": ["N", "N", "N", "D"]
+            },
+            {
+                "id": 6,
+                "opciones": ["A", "N", "N", "D"]
+            },
+            {
+                "id": 7,
+                "opciones": ["A", "B", "N", "D", "N"]
+            },
+            {
+                "id": 8,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 9,
+                "opciones": ["A", "B", "C", "D"]
+            },
+            {
+                "id": 10,
+                "opciones": ["N", "B", "C", "N"]
+            },
+            {
+                "id": 11,
+                "opciones": ["A", "B", "C"]
+            },
+            {
+                "id": 12,
+                "opciones": ["A", "N", "N", "D", "E"]
+            },
+            {
+                "id": 13,
+                "opciones": []
+            },
+            {
+                "id": 14,
+                "opciones": ["N", "B", "N", "N"]
+            },
+            {
+                "id": 15,
+                "opciones": []
+            }
+        ]
+    }
+]

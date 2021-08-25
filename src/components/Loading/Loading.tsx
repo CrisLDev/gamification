@@ -6,7 +6,7 @@ const Loading = () => {
         <div className="L-Container">
                 <p className="L-Text">Estamos analizando tus datos para recomendarte las carreras que se ajustan a tus ideales.</p>
             <br />
-            <img src="../loading.svg" alt="loading" />
+            <img width='100%' src="../loading.svg" alt="loading" />
         </div>
     )
 }

@@ -1,21 +1,31 @@
 import { Input } from 'antd';
-import React from 'react'
+import React, { Dispatch, SetStateAction } from 'react'
+import { SelectOption } from '../../view/Career/career';
 import { Options } from '../Preguntas';
 import './Styles.less';
 
 interface IPorps {
     another?: boolean;
     options: Options[];
+    setSelectOptions: Dispatch<SetStateAction<SelectOption[]>>;
+    selectOptions: SelectOption[];
+    index: number;
+    pregunta: number;
 }
 
-export const SelectQuestionComponent = ({ another, options }: IPorps) => {
+export const SelectQuestionComponent = ({ another, options, selectOptions, setSelectOptions, index, pregunta }: IPorps) => {
     const [prepareToJustify, setPrepareToJustify] = React.useState(false);
+
+    const handleSelect = (option: string) => {
+        const filterSelect = selectOptions.filter(item => item.index !== index);
+        setSelectOptions([...filterSelect, {option, pregunta, index}])
+    }
 
     return (
         <div className="SQ-Root">
-            {options.map(item => (
+            {options.map((item) => (
                 <label className="SQ-RadioContainer" key={item.id}>
-                    <input className="SQ-Radio" name="answer" type="radio" onClick={() => setPrepareToJustify(false)} />
+                    <input className="SQ-Radio" name="answer" type="radio" onClick={() => handleSelect(item.id)} />
                     <h3>{item.option}.</h3>
                 </label>
             ))}

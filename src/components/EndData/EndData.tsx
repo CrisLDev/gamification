@@ -74,15 +74,15 @@ const EndData = () => {
                     </Col>
                     <Col span={1}></Col>
                     <Col xs={17} md={11}>
-                        <p style={{ fontSize: 15, color: '#fff' }}>Habla con Augusto Huerta, estudiante de marketing y administración en la UPN.</p>
+                        <p style={{ fontSize: 15, color: '#fff' }}>Habla con Augusto Huerta, estudiante de marketing y administración en la PN.</p>
                     </Col>
                     <Col></Col>
                     <Col xs={10} md={12} style={{ textAlign: 'center' }}>
                         <TwitterOutlined style={{ fontSize: 30, marginRight: 6, color: '#fff' }} />
                         <span style={{ color: '#fff' }}>@AugustoHuerta1</span>
                     </Col>
-                    <Col xs={10} md={12} style={{ textAlign: 'center' }}>
-                        <WhatsAppOutlined style={{ fontSize: 30, marginRight: 6, color: '#fff' }} />
+                    <Col xs={10} md={12} style={{ textAlign: 'center' }} className="ED-SetBottom">
+                        <img src="../telegram.svg" alt="telegramIcon" className="ED-MarginRight" />
                         <span style={{ color: '#fff' }}>@UMobdream999</span>
                     </Col>
                 </Row>

@@ -8,7 +8,7 @@
     width: 2.8em;
     padding: 0.5em;
     border-radius: 5em;
-    transition: ease-in-out background 1000ms;
+    transition: ease background 5000ms;
     cursor: pointer!important;
     transition: ease-in-out width 500ms;
 }
@@ -19,10 +19,19 @@
     right: 1em;
 }
 
+@keyframes color {
+    0%   {background-color: rgb(51, 26, 26);}
+    25%  {background-color: rgb(65, 65, 28);}
+    50%  {background-color: rgb(33, 33, 80);}
+    100% {background-color: rgb(32, 71, 32);}
+  }
+
 .FB-MakeButton:hover{
-    background: rgb(19, 19, 19);
-    transition: ease-in-out background 1000ms;
+    background: rgb(99, 99, 99);
+    animation-name: color;
+    animation-duration: 4s;
     width: 7.7em;
+    animation-iteration-count: infinite;
     transition: ease-in-out width 500ms;
 }
 

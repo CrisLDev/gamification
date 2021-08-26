@@ -1,11 +1,13 @@
 import { Col, Row } from 'antd'
 import React from 'react'
-import { TwitterOutlined, WhatsAppOutlined } from '@ant-design/icons';
+import { TwitterOutlined } from '@ant-design/icons';
 import './Styles.less'
+import FeedbackButton from '../FeedbackButton/FeedbackButton';
 
 const EndData = () => {
     return (
         <div className="ED-Container">
+            <FeedbackButton />
             <h1>Marketing</h1>
             <div>
                 <img className="ED-FluidImg" src="../slide 20.svg" alt="loading" />

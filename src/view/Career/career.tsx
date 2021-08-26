@@ -5,6 +5,7 @@ import './Styles.less'
 import { useEffect, useState } from 'react';
 import Loading from '../../components/Loading/Loading';
 import EndData from '../../components/EndData/EndData';
+import { CalcularResultado } from '../../helpers/resultado';
 
 export interface SelectOption {
     index: number
@@ -19,7 +20,10 @@ const CareerView = () => {
 
     useEffect(() => {
         console.log(selectOptions);
-    }, [selectOptions])
+        if(itemSpet === 15){
+            CalcularResultado(selectOptions)
+        }
+    }, [selectOptions, itemSpet])
 
     return (
         <section className={`container ${itemSpet === 15 ? 'bg-amarillo' : 'bg-blanco'}`}>

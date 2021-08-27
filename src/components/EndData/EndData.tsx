@@ -83,7 +83,7 @@ const EndData = () => {
                     </Col>
                     <Col xs={10} md={12} style={{ textAlign: 'center' }}>
                         <WhatsAppOutlined style={{ fontSize: 30, marginRight: 6, color: '#fff' }} />
-                        <span style={{ color: '#fff' }}>@UMobdream999</span>
+                        <span style={{ color: '#fff' }}>@Mobdream999</span>
                     </Col>
                 </Row>
             </div>
